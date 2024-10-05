@@ -1,0 +1,10 @@
+def diffirance(a,b):
+    st1=set(a)
+    st2=set(b)
+    new=st1.difference(st2)
+    return new
+
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] 
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] 
+
+print(diffirance(a,b))
